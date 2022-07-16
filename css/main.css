@@ -1,0 +1,38 @@
+body {
+  padding:0;
+  margin:0;
+}
+
+video {
+  height: 100vh; 
+  min-height: 33vh; 
+  display: block; 
+  object-position: center; 
+  object-fit: cover; 
+  z-index: 1; 
+  position: absolute; 
+  top: 0; 
+  left: 0;
+}
+
+main {
+  padding: 15px;
+  z-index: 2;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  min-height: 33vh;
+  width: 100%;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 23px;
+  color: #aaa;
+  text-align: center;
+}
